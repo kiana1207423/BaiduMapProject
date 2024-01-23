@@ -29,7 +29,6 @@ struct MapView: View {
                             mapViewDataByHandler.mapViewData.isRequestionLocationButtonON.toggle()
                             if mapViewDataByHandler.mapViewData.isRequestionLocationButtonON {
                                 // 此处调用 locationManager 的 requestLocation 方法
-                                print("1")
                                 locationManager.requestLocation()
                                 mapViewDataByHandler.mapViewData.isRequestionLocationButtonON = false
                             }
@@ -37,7 +36,7 @@ struct MapView: View {
                         }) {
                             Image(systemName: "location.circle")
                                 .resizable()
-                                .frame(width: geometry.size.width * 0.15, height: geometry.size.height * 0.15)
+                                .frame(width: geometry.size.width * 0.15, height: geometry.size.height * 0.07)
                                 .imageScale(.large)
                                 .padding()
                         }

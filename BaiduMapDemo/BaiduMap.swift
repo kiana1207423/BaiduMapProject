@@ -14,7 +14,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     
     func requestLocation() {
         locationManager.requestLocation()
-        print("2")
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -36,7 +35,15 @@ struct BaiduMapView: UIViewRepresentable {
     let mapView = BMKMapView()
     
     func makeUIView(context: Context) -> BMKMapView {
-        // 配置mapView的属性
+        // 启用定位图层
+        mapView.showsUserLocation = true
+        // 设置定位模式
+        mapView.userTrackingMode = BMKUserTrackingModeFollow
+
+        // 配置mapView的属性...
+        
+        
+        
         return mapView
     }
     
@@ -45,6 +52,11 @@ struct BaiduMapView: UIViewRepresentable {
             // 更新地图的中心点为当前位置
             let coordinate = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             uiView.centerCoordinate = coordinate
+            
+            // 创建并更新定位数据
+            let userLocation = BMKUserLocation()
+            userLocation.location = location
+            uiView.updateLocationData(userLocation)
         }
     }
     

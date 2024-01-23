@@ -16,6 +16,7 @@
 		135882D92B56194900183161 /* BaiduMapDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135882D82B56194900183161 /* BaiduMapDemoUITestsLaunchTests.swift */; };
 		135882E62B561EA400183161 /* BaiduMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135882E52B561EA400183161 /* BaiduMap.swift */; };
 		135882E82B561F6800183161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135882E72B561F6800183161 /* AppDelegate.swift */; };
+		13C1BE542B5E047B00CA8354 /* TestViewForAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C1BE532B5E047B00CA8354 /* TestViewForAny.swift */; };
 		13C233F52B563820000E8F22 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C233F42B563820000E8F22 /* MapView.swift */; };
 		5F9CFCA05D9B601D786F565B /* Pods_BaiduMapDemo_BaiduMapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A20F4DEB48139D5163647 /* Pods_BaiduMapDemo_BaiduMapDemoUITests.framework */; };
 		CD9231DE9EC8C4F46F31925E /* Pods_BaiduMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F0BC94D720613456648011 /* Pods_BaiduMapDemo.framework */; };
@@ -52,6 +53,7 @@
 		135882D82B56194900183161 /* BaiduMapDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduMapDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		135882E52B561EA400183161 /* BaiduMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduMap.swift; sourceTree = "<group>"; };
 		135882E72B561F6800183161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13C1BE532B5E047B00CA8354 /* TestViewForAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewForAny.swift; sourceTree = "<group>"; };
 		13C233F42B563820000E8F22 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		13C233F62B5639B5000E8F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1B485C4BCBF1ED6AB2EAB829 /* Pods-BaiduMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapDemo.debug.xcconfig"; path = "Target Support Files/Pods-BaiduMapDemo/Pods-BaiduMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				135882BD2B56194700183161 /* ContentView.swift */,
 				135882E52B561EA400183161 /* BaiduMap.swift */,
 				13C233F42B563820000E8F22 /* MapView.swift */,
+				13C1BE532B5E047B00CA8354 /* TestViewForAny.swift */,
 				135882BF2B56194900183161 /* Assets.xcassets */,
 				135882C12B56194900183161 /* Preview Content */,
 			);
@@ -455,6 +458,7 @@
 				135882E82B561F6800183161 /* AppDelegate.swift in Sources */,
 				135882BE2B56194700183161 /* ContentView.swift in Sources */,
 				135882BC2B56194700183161 /* BaiduMapDemoApp.swift in Sources */,
+				13C1BE542B5E047B00CA8354 /* TestViewForAny.swift in Sources */,
 				13C233F52B563820000E8F22 /* MapView.swift in Sources */,
 				135882E62B561EA400183161 /* BaiduMap.swift in Sources */,
 			);
